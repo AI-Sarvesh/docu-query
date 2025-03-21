@@ -578,3 +578,283 @@ TypeError: object str can't be used in 'await' expression
 2025-03-19 23:41:26,480 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-03-19 23:43:02,057 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
 2025-03-19 23:43:03,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:28:37,749 - config - INFO - Detected document structure: narrative
+2025-03-20 21:28:42,345 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:28:42,345 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:28:46,747 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:28:47,186 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:28:48,744 - config - INFO - Detected document structure: narrative
+2025-03-20 21:28:48,750 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:28:48,750 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:28:57,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:28:57,595 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:28:57,596 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:29:00,166 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-20 21:29:03,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:29:03,576 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:29:03,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:29:06,303 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-20 21:29:21,280 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:29:21,280 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:29:27,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:29:28,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:51:48,354 - config - INFO - Detected document structure: narrative
+2025-03-20 21:51:49,444 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:51:49,444 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:51:53,356 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-20 21:51:53,395 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-20 21:51:54,752 - config - INFO - Detected document structure: narrative
+2025-03-20 21:51:54,755 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:51:54,755 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:52:03,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:52:03,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:52:03,350 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:52:03,350 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:52:05,897 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-20 21:52:07,626 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:52:07,626 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:52:10,305 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-20 21:52:18,109 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-20 21:52:18,109 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-20 21:52:28,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:52:30,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 21:53:11,572 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-20 21:53:13,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:17:34,540 - config - INFO - Detected document structure: narrative
+2025-03-21 12:17:36,160 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:17:36,160 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:17:39,744 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:17:39,792 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:17:40,691 - config - INFO - Detected document structure: narrative
+2025-03-21 12:17:40,695 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:17:40,696 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:17:58,241 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:17:58,280 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:17:58,280 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:18:01,273 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:18:03,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:18:03,812 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:18:03,812 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:18:06,413 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:30:13,398 - config - INFO - Detected document structure: narrative
+2025-03-21 12:30:15,250 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:30:15,250 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:30:19,057 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:30:19,091 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:30:20,500 - config - INFO - Detected document structure: narrative
+2025-03-21 12:30:20,505 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:30:20,505 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:30:31,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:30:31,487 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:30:31,487 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:30:34,473 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:30:36,971 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:30:36,977 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:30:36,978 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:30:40,062 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:31:05,276 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 12:31:06,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:40:50,113 - config - INFO - Detected document structure: narrative
+2025-03-21 12:40:52,168 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:40:52,168 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:40:55,619 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:40:55,664 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:40:55,678 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:40:56,604 - config - INFO - Detected document structure: narrative
+2025-03-21 12:40:56,608 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:40:56,609 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:40:59,540 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:41:11,602 - config - INFO - Detected document structure: narrative
+2025-03-21 12:41:11,604 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:41:11,604 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:41:21,276 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:41:21,382 - config - INFO - Detected document structure: narrative
+2025-03-21 12:41:21,386 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:41:21,386 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:41:23,933 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:43:14,966 - config - INFO - Detected document structure: narrative
+2025-03-21 12:43:16,773 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:43:16,773 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:43:20,270 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:43:20,318 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:43:20,323 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:43:21,412 - config - INFO - Detected document structure: narrative
+2025-03-21 12:43:21,418 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:43:21,418 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:43:24,915 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:44:33,944 - config - INFO - Detected document structure: narrative
+2025-03-21 12:44:35,787 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:44:35,787 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:44:39,398 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:44:39,441 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:44:40,882 - config - INFO - Detected document structure: narrative
+2025-03-21 12:44:42,755 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:44:42,755 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:44:50,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:44:50,757 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:44:50,758 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:03,552 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:45:04,835 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:45:04,835 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:04,835 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:07,424 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:45:20,777 - config - INFO - Detected document structure: narrative
+2025-03-21 12:45:20,783 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:20,783 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:24,949 - config - INFO - Detected document structure: narrative
+2025-03-21 12:45:24,953 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:24,953 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:33,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:45:33,962 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:33,962 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:36,682 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:45:39,113 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:45:39,121 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:39,124 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:41,791 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:45:49,455 - config - INFO - Detected document structure: narrative
+2025-03-21 12:45:49,458 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:49,458 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:52,337 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:45:53,302 - config - INFO - Detected document structure: narrative
+2025-03-21 12:45:53,304 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:45:53,306 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:45:55,924 - config - ERROR - Error processing document: list index out of range
+2025-03-21 12:47:35,795 - config - INFO - Detected document structure: narrative
+2025-03-21 12:47:37,436 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:47:37,437 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:47:47,398 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 12:47:47,444 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 12:47:49,260 - config - INFO - Detected document structure: narrative
+2025-03-21 12:47:49,266 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:47:49,266 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:48:00,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:48:00,965 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:48:00,965 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:48:05,959 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:48:08,435 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:48:08,443 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 12:48:08,443 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 12:48:11,171 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 12:48:21,037 - config - ERROR - Error with streaming response: 'NoneType' object has no attribute 'ainvoke'
+2025-03-21 12:48:22,547 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 12:48:29,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 12:48:57,966 - config - ERROR - Error with streaming response: 'NoneType' object has no attribute 'ainvoke'
+2025-03-21 12:48:59,286 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 12:49:02,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 13:34:51,511 - config - INFO - Detected document structure: narrative
+2025-03-21 13:34:53,819 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 13:34:53,819 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 13:34:57,903 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 13:34:58,011 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 13:34:59,214 - config - INFO - Detected document structure: narrative
+2025-03-21 13:34:59,215 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 13:34:59,215 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 13:35:06,109 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 13:35:06,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 13:35:06,312 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 13:35:06,312 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 13:35:09,659 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 13:35:10,925 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 13:35:10,925 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 13:35:13,257 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 13:35:46,968 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 13:35:48,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:15:46,580 - config - INFO - Detected document structure: structured
+2025-03-21 15:15:52,759 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:15:52,759 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:15:56,441 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 15:15:56,893 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 15:15:57,833 - config - INFO - Detected document structure: structured
+2025-03-21 15:15:57,837 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:15:57,838 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:16:05,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:16:05,220 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:16:05,220 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:16:07,901 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:16:09,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:16:09,354 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:16:09,354 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:16:11,977 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:16:25,853 - config - ERROR - Error with streaming response: 'NoneType' object has no attribute 'ainvoke'
+2025-03-21 15:16:27,178 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 15:16:32,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:16:39,521 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:16:39,521 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:16:46,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:16:48,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:21:46,583 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:21:46,583 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:21:50,940 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 15:21:51,039 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 15:21:52,327 - config - ERROR - Error processing document: asyncio.run() cannot be called from a running event loop
+2025-03-21 15:21:56,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:21:56,510 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:21:56,510 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:22:00,289 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:27:20,591 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:27:20,591 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:27:25,062 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 15:27:25,087 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 15:27:26,427 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:27:26,427 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:27:33,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:27:33,786 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:27:33,786 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:27:39,032 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:27:42,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:27:42,318 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:27:42,319 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:27:44,769 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:27:55,380 - config - ERROR - Error with streaming response: 'NoneType' object has no attribute 'ainvoke'
+2025-03-21 15:27:56,677 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 15:28:00,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:28:05,448 - config - ERROR - Error comparing documents: Document text file not found for session 115dc352-5cef-46ac-a105-f60ba8bfb4d8
+2025-03-21 15:28:21,894 - config - ERROR - Error comparing documents: Document text file not found for session 6f54b90b-7a96-44d4-af61-e942a7a9abb7
+2025-03-21 15:43:26,273 - config - INFO - Detected document structure: narrative
+2025-03-21 15:43:27,990 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:43:27,990 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:43:34,642 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 15:43:34,678 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 15:43:36,137 - config - INFO - Detected document structure: narrative
+2025-03-21 15:43:36,147 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:43:36,148 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:43:45,198 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:43:45,449 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:43:45,464 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:43:45,464 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:43:48,129 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:43:51,017 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:43:51,018 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:43:55,630 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:44:05,298 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:44:05,298 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:44:12,829 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:44:14,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:44:21,476 - config - ERROR - Error with streaming response: 'NoneType' object has no attribute 'ainvoke'
+2025-03-21 15:44:22,827 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 15:44:34,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:49:34,325 - config - INFO - Detected document structure: structured
+2025-03-21 15:49:36,249 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:49:36,249 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:49:40,390 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-03-21 15:49:40,415 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-21 15:49:41,786 - config - INFO - Detected document structure: structured
+2025-03-21 15:49:43,552 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:49:43,552 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:49:55,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:49:55,266 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:49:55,266 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:49:57,906 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:49:59,608 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:49:59,623 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:49:59,623 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:50:11,898 - config - ERROR - Error creating hybrid retriever: Could not import rank_bm25, please install with `pip install rank_bm25`.
+2025-03-21 15:50:37,069 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 15:50:38,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:51:12,861 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-03-21 15:51:14,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:51:28,281 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-03-21 15:51:28,281 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-03-21 15:51:33,892 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 15:51:35,354 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

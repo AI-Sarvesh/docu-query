@@ -2,6 +2,8 @@
 
 DocuQuery is an advanced document analysis and question-answering system that allows users to upload PDF documents, process them, and ask questions about their content. The system leverages NLP and LLM capabilities to provide accurate answers based on document content.
 
+![DocuQuery Interface](static/screenshot.png)
+
 ## Features
 
 - **PDF Document Processing**: Upload PDF documents for analysis and Q&A
@@ -13,14 +15,29 @@ DocuQuery is an advanced document analysis and question-answering system that al
 - **WebSocket Support**: Real-time updates during document processing and Q&A
 - **Advanced NLP Options**: Enhanced text analysis with entity extraction and key phrase identification
 
-## Technologies Used
+## Architecture
 
-- **Backend**: FastAPI, Python
-- **NLP**: LangChain, OpenAI GPT models
-- **Embeddings**: Hugging Face sentence transformers
-- **Database**: SQLite for feedback storage
-- **Frontend**: HTML, CSS, JavaScript (served via Jinja2 templates)
-- **Document Processing**: PyMuPDF
+DocuQuery is built on a modern, scalable architecture:
+
+### Backend
+- **FastAPI**: Asynchronous API framework with WebSocket support
+- **LangChain**: Framework for LLM application development
+- **FAISS**: Vector database for efficient similarity search
+- **PyMuPDF**: PDF processing library
+- **SQLite**: Lightweight database for feedback storage
+
+### Frontend
+- **HTML/CSS/JavaScript**: Responsive web interface
+- **Tailwind CSS**: Utility-first CSS framework
+- **D3.js**: Data visualization library
+
+### Document Processing Pipeline
+1. PDF Upload & Text Extraction
+2. Document Structure Analysis
+3. Semantic Chunking
+4. Vector Embedding Generation
+5. Hybrid Retrieval System (BM25 + Vector Search)
+6. Context-Aware Q&A with OpenAI Models
 
 ## Setup and Installation
 
@@ -28,6 +45,7 @@ DocuQuery is an advanced document analysis and question-answering system that al
 
 - Python 3.8+
 - OpenAI API key
+- Modern web browser
 
 ### Installation
 
@@ -48,74 +66,64 @@ DocuQuery is an advanced document analysis and question-answering system that al
    pip install -r requirements.txt
    ```
 
-4. Create configuration file:
-   Create a `config.py` file with the following content:
-   ```python
-   import os
-   import logging
-
-   # API Configuration
-   HOST = "0.0.0.0"
-   PORT = 8000
-
-   # Directory configuration
-   UPLOAD_DIR = "uploads"
-   INDEXES_DIR = "indexes"
-
-   # Create directories if they don't exist
-   os.makedirs(UPLOAD_DIR, exist_ok=True)
-   os.makedirs(INDEXES_DIR, exist_ok=True)
-
-   # OpenAI API Key (replace with your actual key)
-   OPENAI_API_KEY = "your-openai-api-key"
-
-   # Configure logging
-   logging.basicConfig(level=logging.INFO)
-   logger = logging.getLogger(__name__)
+4. Create a `.env` file in the project root with your OpenAI API key:
+   ```
+   OPENAI_API_KEY=your_openai_api_key
    ```
 
-5. Make sure to replace `"your-openai-api-key"` with your actual OpenAI API key.
+5. Run the application:
+   ```
+   uvicorn app:app --reload
+   ```
 
-### Running the Application
+6. Open your browser and go to http://localhost:8000
 
-To run the application:
+## Usage Guide
 
-```bash
-uvicorn app:app --reload
-```
+### Document Upload
+1. Drag and drop a PDF file onto the upload area or click to select a file
+2. Toggle "Advanced NLP processing" for more accurate results (slower processing)
+3. Wait for document processing to complete
 
-The application will be available at: http://localhost:8000
+### Asking Questions
+1. Type your question in the input field
+2. View the system's response in the chat area
+3. Provide feedback on answers with thumbs up/down buttons
 
-## Usage
+### Document Comparison
+1. Upload at least two documents
+2. Select comparison type (Semantic or Text-based)
+3. Choose a document to compare with
+4. View similarity scores and topic analysis
 
-1. Open your browser and navigate to http://localhost:8000
-2. Upload a PDF document using the interface
-3. Wait for the document to be processed (progress will be shown)
-4. Ask questions about the document content
-5. Explore document visualizations and statistics
-6. Compare documents by uploading multiple PDFs
+### Document Insights
+1. Click "Generate Document Insights" to analyze your document
+2. Explore statistics, entities, and key phrases
+3. View readability metrics and word frequencies
 
-## API Endpoints
+## Customization Options
 
-- `/` - Main interface
-- `/upload/` - Upload PDF document
-- `/status/{session_id}` - Check document processing status
-- `/query/` - Query document content
-- `/feedback/` - Submit feedback on answers
-- `/summary/{session_id}` - Get document summary
-- `/compare/` - Compare two documents
-- `/visualization/{session_id}` - Get document visualization
-- `/document_stats/{session_id}` - Get document statistics
-- `/debug/{session_id}` - Toggle debug mode
+### Configuration Settings
+Edit `config.py` to customize:
+- Server host and port
+- Maximum sessions
+- Processing options
 
-## WebSocket API
+### LLM Models
+The system currently uses OpenAI's GPT models, but you can modify `services.py` to use alternative models.
 
-Connect to `/ws/{session_id}` for real-time document processing and Q&A.
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
 [MIT License](LICENSE)
 
-## Contributing
+## Acknowledgements
 
-Contributions are welcome! Please feel free to submit a Pull Request. 
+- OpenAI for providing the GPT models
+- HuggingFace for embedding models
+- FAISS for vector similarity search
+- PyMuPDF for PDF processing
+- FastAPI for the web framework 
